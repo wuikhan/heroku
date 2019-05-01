@@ -39,40 +39,22 @@
       </nav>
     </div>
     <hr>
-<h1> Alert Practice </h1>
-<p>Below button is an example of simple alert button.</p>
-<button type="button" class="btn btn-outline-primary" onclick="myFunction()" id="simpleBtn">Simple Alert</button>
-<hr>
-<p>Click the button to display a confirm box.</p>
-<button type="button" class="btn btn-outline-primary" onclick="confirmAlertBtn()" id="confirmBtn" >Confirm Alert</button>
-<hr>
-<p>Click the button to demonstrate the prompt box.</p>
-<button type="button" class="btn btn-outline-primary" onclick="inputBtn()" id="promptBtn" >Prompt Alert</button>
-<p id="demo"></p>
-<hr>
+<h1> Iframe Practice </h1>
 
+<p>Click the button to change the location of the first iframe element (index 0).</p>
 
-<script>
-function confirmAlertBtn() {
-  confirm("Press a button!");
-}
-</script>
+<button onclick="myFunction()">Try it</button>
+<br><br>
 
-<script>
-function inputBtn() {
-  var person = prompt("Please enter your name", "Harry Potter");
-  if (person != null) {
-    document.getElementById("demo").innerHTML =
-    "Hello " + person + "! How are you today?";
-  }
-}
-</script>
+<iframe id="frame1" src="https://codegator.us"></iframe>
+<iframe id="frame2" src="https://codegator.us"></iframe>
 
 <script>
 function myFunction() {
-  alert("Hello! I am an alert box!");
+  window.frames[0].location = "https://www.w3schools.com/jsref/";
 }
 </script>
+
 
   <!-- Bootstrap core JavaScript
     ================================================== -->
