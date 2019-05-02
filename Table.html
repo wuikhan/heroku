@@ -33,47 +33,45 @@
     <div class="nav-scroller py-1 mb-2">
       <nav class="nav d-flex justify-content-between">
         <a class="p-2 text-muted" href="Home.html">Alerts</a>
-        <a class="p-2 text-muted" id="iframe" href="iframe.html">Iframes</a>
+        <a class="p-2 text-muted" href="iframe.html">Iframes</a>
         <a class="p-2 text-muted" href="#">Practice Multiple Windows</a>
         <a class="p-2 text-muted" href="login.html">login</a>
         <a class="p-2 text-muted" href="Table.html">Tables</a>
       </nav>
     </div>
     <hr>
-<h1> Alert Practice </h1>
-<p>Below button is an example of simple alert button.</p>
-<button type="button" class="btn btn-outline-primary" onclick="myFunction()" id="simpleBtn">Simple Alert</button>
-<hr>
-<p>Click the button to display a confirm box.</p>
-<button type="button" class="btn btn-outline-primary" onclick="confirmAlertBtn()" id="confirmBtn" >Confirm Alert</button>
-<hr>
-<p>Click the button to demonstrate the prompt box.</p>
-<button type="button" class="btn btn-outline-primary" onclick="inputBtn()" id="promptBtn" >Prompt Alert</button>
-<p id="demo"></p>
-<hr>
+<h1> Table </h1>
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
 
 
-<script>
-function confirmAlertBtn() {
-  confirm("Press a button!");
-}
-</script>
-
-<script>
-function inputBtn() {
-  var person = prompt("Please enter your name", "Harry Potter");
-  if (person != null) {
-    document.getElementById("demo").innerHTML =
-    "Hello " + person + "! How are you today?";
-  }
-}
-</script>
-
-<script>
-function myFunction() {
-  alert("Hello! I am an alert box!");
-}
-</script>
 
   <!-- Bootstrap core JavaScript
     ================================================== -->
