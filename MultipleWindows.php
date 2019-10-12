@@ -32,24 +32,12 @@
     </header>
 
     <div class="nav-scroller py-1 mb-2">
-      <nav class="nav d-flex justify-content-between">
-        <a class="p-2 text-muted" href="Home.html">Alerts</a>
-        <a class="p-2 text-muted" href="iframe.html">Iframes</a>
-        <a class="p-2 text-muted" href="MultipleWindows.html">Practice Multiple Windows</a>
-        <a class="p-2 text-muted" href="login.html">login</a>
-        <a class="p-2 text-muted" href="Table.html">Tables</a>
-        <a class="p-2 text-muted" href="bytag.html">By Tag</a>
-      </nav>
+    <?php include('menu.php') ?>
     </div>
     <hr>
-    <h1> Iframe Practice </h1>
-    <input type="text" class="form-control" placeholder="Username" id="username" aria-label="Username"
-      aria-describedby="basic-addon1">
-    <br><br>
+    <h1> Multiple Windows </h1>
 
-    <iframe id="frame1" src="login.html"></iframe>
-    <iframe id="frame2" src="login.html"></iframe>
-
+    <a href="https://www.google.com/" target="_blank" id="loginLink">login page</a>
 
 
     <!-- Bootstrap core JavaScript
