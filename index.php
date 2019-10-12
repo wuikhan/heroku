@@ -18,5 +18,5 @@
     <button type="button" class="btn btn-outline-primary" onclick="inputBtn()" id="promptBtn">Prompt Alert</button>
     <p id="demo"></p>
     <hr>
-    </div>
+
     <?php include('footer.php') ?>

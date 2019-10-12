@@ -1,4 +1,4 @@
-
+</div>
     <script>
       function confirmAlertBtn() {
         confirm("Press a button!");

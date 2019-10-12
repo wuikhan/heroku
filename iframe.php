@@ -10,5 +10,4 @@
     <iframe id="frame1" src="login.html"></iframe>
     <iframe id="frame2" src="login.html"></iframe>
 
-
     <?php include('footer.php') ?>
