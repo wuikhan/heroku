@@ -7,5 +7,6 @@
     <a class="p-2 text-muted" href="login.php">login</a>
     <a class="p-2 text-muted" href="Table.php">Tables</a>
     <a class="p-2 text-muted" href="bytag.php">By Tag</a>
+    <a class="p-2 text-muted" href="form.php">form</a>
   </nav>
 </div>
