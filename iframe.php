@@ -1,13 +1,12 @@
 <?php include('header.php') ?>
-   <?php include('menu.php') ?>
-  
-    <hr>
-    <h1> Iframe Practice </h1>
-    <input type="text" class="form-control" placeholder="Username" id="username" aria-label="Username"
-      aria-describedby="basic-addon1">
-    <br><br>
+<?php include('menu.php') ?>
 
-    <iframe id="frame1" src="login.html"></iframe>
-    <iframe id="frame2" src="login.html"></iframe>
+<hr>
+<h1> Iframe Practice </h1>
+<input type="text" class="form-control" placeholder="Username" id="username" aria-label="Username" aria-describedby="basic-addon1">
+<br><br>
 
-    <?php include('footer.php') ?>
+<iframe id="frame1" src="login.html"></iframe>
+<iframe id="frame2" src="login.html"></iframe>
+
+<?php include('footer.php') ?>
