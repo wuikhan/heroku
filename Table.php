@@ -1,6 +1,6 @@
 <?php include('header.php') ?>
    <?php include('menu.php') ?>
-    </div>
+    
     <hr>
     <h1> Table </h1>
     <table class="table table-bordered">

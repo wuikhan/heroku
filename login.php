@@ -1,6 +1,5 @@
 <?php include('header.php') ?>
    <?php include('menu.php') ?>
-    </div>
     <hr>
     <br>
     <h2>Input Fields</h2>

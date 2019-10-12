@@ -1,6 +1,6 @@
 <?php include('header.php') ?>
    <?php include('menu.php') ?>
-    </div>
+  
     <hr>
     <h1> Iframe Practice </h1>
     <input type="text" class="form-control" placeholder="Username" id="username" aria-label="Username"

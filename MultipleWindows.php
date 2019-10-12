@@ -1,6 +1,5 @@
 <?php include('header.php') ?>
    <?php include('menu.php') ?>
-    </div>
     <hr>
     <h1> Multiple Windows </h1>
 

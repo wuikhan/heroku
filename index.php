@@ -1,10 +1,5 @@
 <?php include('header.php') ?>
    <?php include('menu.php') ?>
-    
-
-   
-    
-   
     <hr>
     <h1> Alert Practice </h1>
     <p>Below button is an example of simple alert button.</p>
