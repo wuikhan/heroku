@@ -2,8 +2,7 @@
 <?php include('menu.php') ?>
 
 <hr>
-<h1> Table </h1>
-<table class="table table-bordered">
+<h1> Table </h1><table class="table">
   <thead>
     <tr>
       <th scope="col">#</th>
@@ -15,12 +14,11 @@
   <tbody>
     <tr>
       <th scope="row">1</th>
+      <td>Mark</td>
       <td>
-        Mark</td>
-      <td>
-        <a href="https://www.google.com">
-          Otto
-        </a>
+      <a href="https://www.google.com/">
+      Otto
+      </a>
       </td>
       <td>@mdo</td>
     </tr>
@@ -32,12 +30,8 @@
     </tr>
     <tr>
       <th scope="row">3</th>
-      <td colspan="2">Larry the Bird</td>
-      <td>@twitter</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td colspan="2">Larry the Bird</td>
+      <td>Larry</td>
+      <td>the Bird</td>
       <td>@twitter</td>
     </tr>
   </tbody>
