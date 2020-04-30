@@ -9,7 +9,7 @@
         <h1> Find Element by tag name </h1>
         <div class="col-sm">
             <select class="custom-select custom-select-lg mb-3 fruits">
-                <option selected>Select a fruite from the list :</option>
+                <option selected>Select a fruit from the list :</option>
                 <option value="1">Apple</option>
                 <option value="2">Banana</option>
                 <option value="3">Grape</option>
