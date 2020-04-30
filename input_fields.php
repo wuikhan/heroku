@@ -1,7 +1,6 @@
 <?php include('header.php') ?>
 <?php include('menu.php') ?>
 
-
 <h2>Input Fields</h2>
 <div class="input-group mb-3">
   <div class="input-group-prepend">
