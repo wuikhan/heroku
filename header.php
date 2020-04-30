@@ -17,6 +17,3 @@
 
 <body>
     <div class="container">
-        <header class="blog-header py-3">
-                <?php include('menu.php') ?>
-        </header>
