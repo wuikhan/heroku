@@ -9,13 +9,15 @@
         <div class="col">
             <label for="cars">Choose a fruit:</label>
         </div>
-        <div class="col">
+        <div class="col-5">
             <select class="custom-select custom-select-lg mb-3 fruits">
                 <option selected>Select a fruit from the list :</option>
                 <option value="1">Apple</option>
                 <option value="2">Banana</option>
                 <option value="3">Grape</option>
             </select>
+        </div>
+        <div class="col">
         </div>
     </div>
     <div class="row">
