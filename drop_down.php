@@ -2,19 +2,19 @@
 <?php include('menu.php') ?>
 <hr>
 <div>
-    <p>driver.findElement(By.tagName("input/select/a/div etc"));</p>
+    <h1> Drop down & Multi Select field </h1>
 </div>
 <div class="container">
     <div class="row">
-        <h1> Find Element by tag name </h1>
-        <div class="col-sm">
-            <select class="custom-select custom-select-lg mb-3 fruits">
-                <option selected>Select a fruit from the list :</option>
-                <option value="1">Apple</option>
-                <option value="2">Banana</option>
-                <option value="3">Grape</option>
-            </select>
-        </div>
+        < <label for="cars">Choose a fruit:</label>
+            <div class="col-sm">
+                <select class="custom-select custom-select-lg mb-3 fruits">
+                    <option selected>Select a fruit from the list :</option>
+                    <option value="1">Apple</option>
+                    <option value="2">Banana</option>
+                    <option value="3">Grape</option>
+                </select>
+            </div>
     </div>
     <div class="row">
         <div class="col-sm">
