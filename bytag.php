@@ -2,17 +2,17 @@
 <?php include('menu.php') ?>
 <hr>
 <div>
-    <p>driver.findElement(By.tagName("id/classname/etc"));</p>
+    <p>driver.findElement(By.tagName("input/select/a/div etc"));</p>
 </div>
 <div class="container">
     <div class="row">
         <h1> Find Element by tag name </h1>
         <div class="col-sm">
             <select class="custom-select custom-select-lg mb-3">
-                <option selected>Open this select menu</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
+                <option selected>Select a fruite from the list :/option>
+                <option value="1">Apple</option>
+                <option value="2">Banana</option>
+                <option value="3">Grape</option>
             </select>
         </div>
     </div>
@@ -22,10 +22,10 @@
     <div class="row">
         <label for="cars">Choose a car:</label>
         <select id="cars" multiple>
-            <option value="volvo">Volvo</option>
-            <option value="saab">Saab</option>
-            <option value="opel">Opel</option>
-            <option value="audi">Audi</option>
+            <option value="car1">Volvo</option>
+            <option value="car2">Saab</option>
+            <option value="car3">Opel</option>
+            <option value="car4">Audi</option>
         </select>
     </div>
 </div>
@@ -33,6 +33,7 @@
 
 <div class="container">
     <div class="row">
+    <label for="cars">Choose a state:</label>
         <select class="ui fluid search dropdown" multiple="">
             <option value="">State</option>
             <option value="AL">Alabama</option>
