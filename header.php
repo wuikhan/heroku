@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -13,14 +14,12 @@
     <link rel="stylesheet" href="https://use.typekit.net/iwa1uky.css">
     <link href="style.css" rel="stylesheet">
 </head>
+
 <body>
     <div class="container">
         <header class="blog-header py-3">
             <div class="row flex-nowrap justify-content-between align-items-center">
-                <div class="col-sm-4">
-                    <p>202 440 2066</p>
-                </div>
-                <div class="col-sm-8">
+                <div class="col-sm-12">
                     <a class="blog-header-logo text-dark" href="index.php">Codegator Practice Site </a>
                 </div>
                 <div class="col">

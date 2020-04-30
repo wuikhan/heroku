@@ -2,7 +2,8 @@
 <?php include('menu.php') ?>
 
 <hr>
-<h1> Table </h1><table class="table">
+<h1> Table </h1>
+<table class="table">
   <thead>
     <tr>
       <th scope="col">#</th>
@@ -16,9 +17,9 @@
       <th scope="row">1</th>
       <td>Mark</td>
       <td>
-      <a href="https://www.google.com/">
-      Otto
-      </a>
+        <a href="https://www.google.com/">
+          Otto
+        </a>
       </td>
       <td>@mdo</td>
     </tr>
