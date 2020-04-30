@@ -17,11 +17,16 @@
         </div>
     </div>
 
-    <select id="cars" multiple>
-        <option value="volvo">Volvo</option>
-        <option value="saab">Saab</option>
-        <option value="opel">Opel</option>
-        <option value="audi">Audi</option>
-    </select>
+    <div class="container">
+        <div class="row">
+            <label for="cars">Choose a car:</label>
+            <select id="cars" multiple>
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="opel">Opel</option>
+                <option value="audi">Audi</option>
+            </select>
+        </div>
+    </div>
 
     <?php include('footer.php') ?>
