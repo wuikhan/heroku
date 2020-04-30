@@ -40,8 +40,8 @@
     </div>
     <div class="col-md-3 mb-3">
       <label for="validationCustom04">State</label>
-      <select class="custom-select custom-select-lg mb-3" requied>
-        <option value="">State</option>
+      <select class="form-control" requied>
+        <option value="">Choose a State</option>
         <option value="AL">Alabama</option>
         <option value="AK">Alaska</option>
         <option value="AZ">Arizona</option>
