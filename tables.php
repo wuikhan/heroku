@@ -1,7 +1,7 @@
 <?php include('header.php') ?>
 <?php include('menu.php') ?>
 
-<hr>
+
 <h1> Table </h1>
 <table class="table">
   <thead>

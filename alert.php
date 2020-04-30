@@ -1,7 +1,7 @@
 <?php include('header.php') ?>
 <?php include('menu.php') ?>
 
-<div class="container">
+
   <div class="row">
     <div class="col-sm">
       <h1> Alert Practice </h1>
@@ -28,5 +28,5 @@
       <button type="button" class="btn btn-secondary btn-lg" disabled>Disable Button</button>
     </div>
   </div>
-</div>
+
 <?php include('footer.php') ?>
