@@ -11,7 +11,7 @@
             <label for="cars">Choose a fruit:</label>
         </div>
         <div class="col-sm-8">
-            <select class="form-control custom-select custom-select-lg mb-3 fruits">
+            <select class="form-control fruits">
                 <option selected>Select a fruit from the list :</option>
                 <option value="1">Apple</option>
                 <option value="2">Banana</option>
@@ -27,7 +27,7 @@
             <label for="cars">Choose a car:</label>
         </div>
         <div class="col-sm-8">
-            <select id="cars" class="form-control custom-select custom-select-lg mb-3" multiple>
+            <select id="cars" class="form-control cars" multiple>
                 <option value="car1">Volvo</option>
                 <option value="car2">Saab</option>
                 <option value="car3">Opel</option>
@@ -42,7 +42,7 @@
             <label for="states">Choose a state:</label>
         </div>
         <div class="col-sm-8">
-            <select class="form-control custom-select custom-select-lg mb-3" multiple>
+            <select class="form-control state" multiple>
                 <option value="">State</option>
                 <option value="AL">Alabama</option>
                 <option value="AK">Alaska</option>
