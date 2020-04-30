@@ -19,6 +19,7 @@
         </div>
     </div>
 </div>
+
 <div class="container">
     <div class="row">
         <div class="col-sm-4">
@@ -40,7 +41,7 @@
                 <label for="states">Choose a state:</label>
             </div>
             <div class="col-sm-8">
-                <select class="ui fluid search dropdown custom-select custom-select-lg mb-3" multiple="">
+                <select class="custom-select custom-select-lg mb-3" multiple>
                     <option value="">State</option>
                     <option value="AL">Alabama</option>
                     <option value="AK">Alaska</option>
