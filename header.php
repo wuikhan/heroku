@@ -18,7 +18,5 @@
 <body>
     <div class="container">
         <header class="blog-header py-3">
-            <div class="col-sm-8">
                 <?php include('menu.php') ?>
-            </div>
         </header>
