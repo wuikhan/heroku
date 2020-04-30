@@ -18,7 +18,14 @@
 <body>
     <div class="container">
         <header class="blog-header py-3">
-            <nav class="navbar fixed-top navbar-light bg-light">
-                <a class="navbar-brand" href="index.php">codegator</a>
-            </nav>
+            <div class="row flex-nowrap justify-content-between align-items-center">
+                <div class="col-sm-4">
+                    <nav class="navbar fixed-top navbar-light bg-light">
+                        <a class="navbar-brand" href="index.php">codegator</a>
+                    </nav>
+                </div>
+                <div class="col-sm-8">
+                    <?php include('menu.php') ?>
+                </div>
+            </div>
         </header>
