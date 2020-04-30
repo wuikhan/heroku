@@ -6,10 +6,10 @@
 </div>
 <div class="container">
     <div class="row">
-        <div class="col-sm">
+        <div class="col">
             <label for="cars">Choose a fruit:</label>
         </div>
-        <div class="col-sm">
+        <div class="col">
             <select class="custom-select custom-select-lg mb-3 fruits">
                 <option selected>Select a fruit from the list :</option>
                 <option value="1">Apple</option>
