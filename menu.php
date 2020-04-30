@@ -17,19 +17,19 @@
       </li>
 
       <li class="nav-item">
-      <a class="p-2 text-muted" href="input_fields.php">Input Fields</a>
+        <a class="p-2 text-muted" href="input_fields.php">Input Fields</a>
       </li>
 
       <li class="nav-item">
-      <a class="p-2 text-muted" href="tables.php">Tables</a>
+        <a class="p-2 text-muted" href="tables.php">Tables</a>
       </li>
 
       <li class="nav-item">
-      <a class="p-2 text-muted" href="drop_down.php">Drop Down</a>
+        <a class="p-2 text-muted" href="drop_down.php">Drop Down</a>
       </li>
 
       <li class="nav-item">
-      <a class="p-2 text-muted" href="form.php">Form</a>
+        <a class="p-2 text-muted" href="form.php">Form</a>
       </li>
 
 
@@ -48,3 +48,4 @@
     </form>
   </div>
 </nav>
+<div class="container">
