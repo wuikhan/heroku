@@ -14,15 +14,10 @@
     text-decoration: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-a {
-    font-family: "Ubuntu";
+h1, h2, h3, h4, h5, h6, p, a {
+    font-family: univia-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .display-4 {
@@ -81,7 +76,6 @@ a {
     }
 }
 
-
 /*
  * Blog name and description
  */
@@ -103,7 +97,6 @@ a {
     }
 }
 
-
 /* Pagination */
 
 .blog-pagination {
@@ -113,7 +106,6 @@ a {
 .blog-pagination>.btn {
     border-radius: 2rem;
 }
-
 
 /*
  * Blog posts
@@ -132,7 +124,6 @@ a {
     margin-bottom: 1.25rem;
     color: #999;
 }
-
 
 /*
  * Footer
