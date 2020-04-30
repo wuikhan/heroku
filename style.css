@@ -16,7 +16,7 @@
     text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6, p, a, label, select, button, input, option, form, table, span {
+h1, h2, h3, h4, h5, h6, p, a, label, select, button, input, option, form, table, span, small {
     font-family: univia-pro, sans-serif;
     font-weight: 500;
     font-style: normal;
