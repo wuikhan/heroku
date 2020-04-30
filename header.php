@@ -19,10 +19,11 @@
     <div class="container">
         <header class="blog-header py-3">
             <div class="row flex-nowrap justify-content-between align-items-center">
-                <div class="col-sm-12">
+                <div class="col-sm-4">
                     <a class="blog-header-logo text-dark" href="index.php">Codegator Practice Site </a>
                 </div>
-                <div class="col">
+                <div class="col-sm-8">
+                    <?php include('menu.php') ?>
                 </div>
             </div>
         </header>
