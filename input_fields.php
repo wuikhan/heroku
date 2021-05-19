@@ -44,9 +44,9 @@
 <h2>Checkbox</h2>
 <div class="checkbox-group">
   <form>
-    <input type="checkbox" name="vehicle1" value="Bike" > I have a bike<br>
-    <input type="checkbox" name="vehicle2" value="Car" > I have a car<br>
-    <input type="checkbox" name="vehicle3" value="Boat" checked> I have a boat<br><br>
+    <input type="checkbox" id ="v1" name="vehicle1" value="Bike" > I have a bike<br>
+    <input type="checkbox" id ="v2" name="vehicle2" value="Car" > I have a car<br>
+    <input type="checkbox" id ="v3" name="vehicle3" value="Boat" checked> I have a boat<br><br>
   </form>
 </div>
 <br>
