@@ -101,6 +101,8 @@
  function enable_link() { 
 
   document.getElementById('testlink').setAttribute("href",link);
+  setTimeout(function(){document.getElementById("testlink").disabled = false;},5000);
+
 
    } 
 
