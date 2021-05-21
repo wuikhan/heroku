@@ -65,11 +65,46 @@
 </div>
 
 </style> 
-<div class="hidden">Content</div> 
-<script> 
-setTimeout(function(){ 
-$('.hidden').show(); 
-}, 3000); 
-</script> 
+<div class="hidden">
+
+<form id="form1" name="form1" method="post" action="">
+  <p>
+    <label>
+      <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_0" onchange="disable_link();" />
+      Radio</label>
+    <br />
+    <label>
+      <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_1" onchange="enable_link();" />
+      Radio</label>
+    <br />
+  </p>
+  <a id="testlink" href="http://www.yahoo.com"> test </a>
+</form>
+
+</div> 
+<script type="text/javascript">
+
+    var link,color;
+
+ function disable_link() { 
+
+  document.getElementById('testlink').disabled=true;
+
+  link = document.getElementById('testlink').href;
+
+  document.getElementById('testlink').removeAttribute('href');
+  //document.getElementById('testlink').style.color = "grey";
+
+   } 
+
+
+ function enable_link() { 
+
+  document.getElementById('testlink').setAttribute("href",link);
+
+   } 
+
+
+</script>
 
 <?php include('footer.php') ?>
