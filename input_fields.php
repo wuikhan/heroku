@@ -64,4 +64,12 @@
   </label>
 </div>
 
+</style> 
+<div class="hidden">Content</div> 
+<script> 
+setTimeout(function(){ 
+$('.hidden').show(); 
+}, 3000); 
+</script> 
+
 <?php include('footer.php') ?>
