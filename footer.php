@@ -41,8 +41,7 @@
     function confirmAlertBtn() {
         confirm("Press a button!");
     }
-</script>
-<script>
+
     function inputBtn() {
         var person = prompt("Please enter your name", "Harry Potter");
         if (person != null) {
@@ -50,9 +49,7 @@
                 "Hello " + person + "! How are you today?";
         }
     }
-</script>
 
-<script>
     function myFunction() {
         alert("Hello! I am an alert box!");
     }
