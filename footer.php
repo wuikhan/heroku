@@ -54,9 +54,15 @@
         alert("Hello! I am an alert box!");
     }
 
-    function hello(){
-      alert("This is for primary button");
-    }
+    function submitPoll(){
+    document.getElementById("buttonTwo").disabled = true;
+    setTimeout(function() {
+        document.getElementById("buttonTwo").disabled = false;
+    }, 5000);
+    
+}
+
+document.getElementById("buttonOne").addEventListener("click", submitPoll);
 </script>
 
 <!-- Bootstrap core JavaScript
