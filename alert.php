@@ -24,8 +24,8 @@
 <div class="row">
   <div class="col-sm">
     <p id="demo">Below is an example for the disable button.</p>
-    <button type="button" class="btn btn-lg btn-primary" id="disableBtn" onclick="hello()">Primary button</button>
-    <button type="button" class="btn btn-secondary btn-lg" disabled>Disable Button</button>
+    <button type="button" class="btn btn-lg btn-primary" id="buttonOne" onclick="submitPoll()">Primary button</button>
+    <button type="button" class="btn btn-secondary btn-lg" id="buttonTwo" disabled>Disable Button</button>
   </div>
 </div>
 
