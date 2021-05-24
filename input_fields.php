@@ -63,8 +63,4 @@
     Female
   </label>
 </div>
-
-</style> 
-
-
 <?php include('footer.php') ?>
