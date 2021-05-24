@@ -58,7 +58,7 @@
     document.getElementById("buttonTwo").disabled = true;
     setTimeout(function() {
       document.getElementById("buttonTwo").innerHTML = "Button is now enable!";
-      document.getElementById("buttonTwo").style.background-color = "#4CAF50";
+      document.getElementById("buttonTwo").style.background = "#4CAF50";
 
         document.getElementById("buttonTwo").disabled = false;
     }, 5000);
