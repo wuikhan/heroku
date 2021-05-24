@@ -57,6 +57,8 @@
     function submitPoll(){
     document.getElementById("buttonTwo").disabled = true;
     setTimeout(function() {
+      document.getElementById("buttonTwo").innerHTML = "Button is now enable!";
+
         document.getElementById("buttonTwo").disabled = false;
     }, 5000);
     
