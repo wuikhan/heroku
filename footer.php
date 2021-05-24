@@ -63,6 +63,10 @@
 }
 
 document.getElementById("buttonOne").addEventListener("click", submitPoll);
+
+function disableBtn(){
+  alert("disable button is not enabled");
+}
 </script>
 
 <!-- Bootstrap core JavaScript
