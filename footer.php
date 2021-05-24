@@ -53,6 +53,10 @@
     function myFunction() {
         alert("Hello! I am an alert box!");
     }
+
+    function hello(){
+      alert("This is for primary button");
+    }
 </script>
 
 <!-- Bootstrap core JavaScript
