@@ -8,6 +8,7 @@
     <a class="py-2 d-none d-md-inline-block tablesLink" id="tablesLink" href="tables.php">Tables</a>
     <a class="py-2 d-none d-md-inline-block dropdownLink" id="dropdownLink" href="drop_down.php">Drop Down</a>
     <a class="py-2 d-none d-md-inline-block formLink" id="formLink" href="form.php">Form</a>
+    <a class="py-2 d-none d-md-inline-block formLink" id="formLink" href="dragdrop.php">Drag & Drop</a>
   </div>
 </nav>
 <br>
