@@ -14,9 +14,9 @@
     <link rel="stylesheet" href="https://use.typekit.net/iwa1uky.css">
     <link href="style.css" rel="stylesheet">
     <style>
-        #div1 {
+        #box {
         width: 350px;
-        height: 70px;
+        height: 100px;
         padding: 10px;
         border: 1px solid #aaaaaa;
         }
