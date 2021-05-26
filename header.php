@@ -13,6 +13,14 @@
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="https://use.typekit.net/iwa1uky.css">
     <link href="style.css" rel="stylesheet">
+    <style>
+#div1 {
+  width: 350px;
+  height: 70px;
+  padding: 10px;
+  border: 1px solid #aaaaaa;
+}
+</style>
 </head>
 
 <body>
