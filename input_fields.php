@@ -63,4 +63,9 @@
     Female
   </label>
 </div>
+
+<div>
+<h1>Borken links example</h1>
+<a class="py-2 d-none d-md-inline-block formLink" id="formLink" href="dragdrop1.php">Broken link</a>
+</div>
 <?php include('footer.php') ?>
