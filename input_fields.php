@@ -68,4 +68,18 @@
 <h1>Borken links example</h1>
 <a class="py-2 d-none d-md-inline-block formLink" id="formLink" href="dragdrop1.php">Broken link</a>
 </div>
+<div>
+<h1>working links example</h1>
+<a class="py-2 d-none d-md-inline-block formLink" id="formLink" href="dragdrop.php">Broken link</a>
+</div>
+
+<div class="col-12 col-md">
+            <img class="mb-2" src="img.gif" alt="" width="24" height="24">
+  
+          </div>
+
+          <div class="col-12 col-md">
+            <img class="mb-2" src="img.png" alt="" width="24" height="24">
+          </div>
+
 <?php include('footer.php') ?>
