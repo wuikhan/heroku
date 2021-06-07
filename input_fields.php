@@ -74,7 +74,7 @@
 </div>
 
 <div class="col-12 col-md">
-            <img class="mb-2" src="img.gif" alt="" width="24" height="24">
+            <img class="mb-2" src="img.gif">
   
           </div>
 
