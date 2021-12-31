@@ -9,6 +9,7 @@
     <a class="py-2 d-none d-md-inline-block dropdownLink" id="dropdownLink" href="drop_down.php">Drop Down</a>
     <a class="py-2 d-none d-md-inline-block formLink" id="formLink" href="form.php">Form</a>
     <a class="py-2 d-none d-md-inline-block formLink" id="formLink" href="dragdrop.php">Drag & Drop</a>
+    <a class="py-2 d-none d-md-inline-block formLink" id="locatorsLink" href="locators.php">Locators</a>
     <a class="py-2 d-none d-md-inline-block">No Value</a>
   </div>
 </nav>
