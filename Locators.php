@@ -3,7 +3,7 @@
 
 
 <h5>CSS Selector Example </h5>
-tag#id
+<bold><i>tag#id</i></bold>
 <h6>if you have id attribute present you can combine with the tag and id like e.g: tag#id and it will find that element.</h6>
 <p id="line1"> in this example we are learning css selector using tag & id </p>
 
