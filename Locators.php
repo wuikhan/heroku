@@ -3,8 +3,11 @@
 
 
 <h5>CSS Selector Example </h5>
+tag#id
 <h6>if you have id attribute present you can combine with the tag and id like e.g: tag#id and it will find that element.</h6>
 <p id="line1"> in this example we are learning css selector using tag & id </p>
+
+<code> <p id="line1"> some text ... </p>
 <code>driver.findElement(By.cssSelector(“p#line1”));</code>
 <br>
 <hr>
