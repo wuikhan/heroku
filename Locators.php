@@ -13,8 +13,6 @@
 <code>driver.findElement(By.cssSelector(“p.example.line2”));</code><br>
 <code>driver.findElement(By.cssSelector(“p.line2));</code>
 <br>
-<h5><u>Using XPATH </u></h5>
 <b><i>tag[attribute=’attribute value’]</i></b>
 <h6>if you dont have any <code>id</code> or <code>class</code> present in the webelement, you can create custom cssSelector</h6>
 <code>driver.findElement(By.cssSelector(“input[placeholder='First name']”));</code>
-<?php include('footer.php') ?>
