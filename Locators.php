@@ -4,8 +4,8 @@
 
 <h5>CSS Selector Example </h5>
 <b><i>tag#id</i></b>
-<h6>if you have id attribute present you can combine with the tag and id like e.g: tag#id and it will find that element.</h6>
-<p id="line1" style="text-decoration:blink"> Capture this text and print it in the console. (using tag#id) </p>
+<h6>if you have id attribute present you can combine with the tag and id like e.g: tag#id and it will find that element.</h6><br>
+<p id="line1"> (using tag#id) To test this out we will clear the text and enter new text in the below field using css selector.</p>
 <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="Mark" required>
 <code>driver.findElement(By.cssSelector(“p#line1”));</code>
 <br>
