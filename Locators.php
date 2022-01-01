@@ -17,11 +17,10 @@
 <h6>if you dont have any <code>id</code> or <code>class</code> present in the webelement, you can create custom cssSelector</h6>
 <code>driver.findElement(By.cssSelector(“input[placeholder='First name']”));</code>
 
-<script id="template1" type="text/template">
     <h2>{title}</h2>
     <input type="text" name="field{id}_1">
     <input type="text" name="field{id}_2">
     <input type="text" name="field{id}_3">
-</script>
+
 
 <?php include('footer.php') ?>
