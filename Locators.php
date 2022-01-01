@@ -19,7 +19,6 @@
 <hr>
 <b><i>button[id^='simple']</i></b>
 <h6>using below locator you will be able to select a button whose <code>id</code> attribute value starts from <code>simple</code></h6>
-
 <code>driver.findElement(By.cssSelector(“button[id^='simple']”));</code>
 
 <?php include('footer.php') ?>
