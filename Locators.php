@@ -21,4 +21,14 @@
 <h6>using below locator you will be able to select a button whose <code>id</code> attribute value starts from <code>simple</code></h6>
 <code>driver.findElement(By.cssSelector(“button[id^='simple']”));</code>
 
+<hr>
+<b><i>button[id$='Btn']</b></i>
+<h6>using below locator you will be able to select a button whose <code>id</code> attribute value ends at <code>Btn</code></h6>
+<code>driver.findElement(By.cssSelector(“button[id$='Btn']”));</code>
+
+<hr>
+<b><i>button[id*='ple']</b></i>
+<h6>using below locator you will be able to select a button whose <code>id</code> attribute value contains a <code>ple</code> string.</h6>
+<code>driver.findElement(By.cssSelector(“button[id*='ple']”));</code>
+
 <?php include('footer.php') ?>
