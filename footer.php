@@ -85,10 +85,7 @@ function drop(ev) {
   ev.target.appendChild(document.getElementById(data));
 }
 
-var template = $('#template1').html();
-template = Template.replace(/\{title\}/g, mytitle);    
-template = Template.replace(/\{id\}/g, nextId);
-$('#somewhere').append(template);
+
 </script>
 
 <!-- Bootstrap core JavaScript
