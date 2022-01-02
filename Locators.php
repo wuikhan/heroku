@@ -30,7 +30,7 @@
 <b><i>button[id*='ple']</b></i>
 <h6>using below locator you will be able to select a button whose <code>id</code> attribute value contains a <code>ple</code> string.</h6>
 <code>driver.findElement(By.cssSelector(“button[id*='ple']”));</code>
-<br>
+<hr>
 <h5><u>Using XPATH </u></h5>
 <b><ul>Native or Absolute XPATH (Not Recommended)</ul></b>
 <code>/html/body/div/form/div[1]/div[1]/input</code>
