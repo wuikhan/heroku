@@ -36,3 +36,11 @@
 <code>/html/body/div/form/div[1]/div[1]/input</code>
 <b><ul>Relative XPATH (Recommended)</ul></b>
 <code>//tag[@attribute=’attribute value’]</code>
+<code>//input[contains(@placeholder,'User')]</code>
+<code>//input[starts-with(@placeholder,'Recipient')]</code>
+<hr>
+<h6>Advanced XPATH</h6>
+<li>parentXpath//childTagName</li>
+<br>
+<br>
+<br>
