@@ -1,0 +1,169 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+    <title>codegator inc.</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="https://use.typekit.net/iwa1uky.css">
+    <link href="style.css" rel="stylesheet">
+    <style>
+        #box {
+        width: 350px;
+        height: 100px;
+        padding: 10px;
+        border: 1px solid #aaaaaa;
+        }
+</style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+    <div class="container d-flex flex-column flex-md-row justify-content-between">
+      <a class="navbar-brand" href="index.html">codegator practice site</a>
+      <a class="py-2 d-none d-md-inline-block alertLink" id="alertLink" href="alert.html">Alerts</a>
+      <a class="py-2 d-none d-md-inline-block iframeLink" id="iframe" href="iframe.html">Iframes</a>
+      <a class="py-2 d-none d-md-inline-block multipleLink" id="multipleWindow" href="MultipleWindows.html">Practice Multiple Windows</a>
+      <a class="py-2 d-none d-md-inline-block inputField" id="inputField" href="input_fields.html">Input Fields</a>
+      <a class="py-2 d-none d-md-inline-block tablesLink" id="tablesLink" href="tables.html">Tables</a>
+      <a class="py-2 d-none d-md-inline-block dropdownLink" id="dropdownLink" href="drop_down.html">Drop Down</a>
+      <a class="py-2 d-none d-md-inline-block formLink" id="formLink" href="form.html">Form</a>
+      <a class="py-2 d-none d-md-inline-block formLink" id="formLink" href="dragdrop.html">Drag & Drop</a>
+      <a class="py-2 d-none d-md-inline-block formLink" id="locatorsLink" href="Locators.html">Locators</a>
+      <a class="py-2 d-none d-md-inline-block">No Value</a>
+    </div>
+  </nav>
+  <br>
+  <div class="container">
+<h2 name="input-field">Input Fields</h2>
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="basic-addon1">@</span>
+  </div>
+  <input type="text" class="form-control" placeholder="Username" id="username" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+
+<div class="input-group mb-3">
+  <input type="text" class="form-control" name="recipient" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+  <div class="input-group-append">
+    <span class="input-group-text" id="basic-addon2">@example.com</span>
+  </div>
+</div>
+
+<label for="basic-url">Your vanity URL</label>
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+  </div>
+  <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+</div>
+
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text">$</span>
+  </div>
+  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+  <div class="input-group-append">
+    <span class="input-group-text">.00</span>
+  </div>
+</div>
+
+<div class="input-group">
+  <div class="input-group-prepend">
+    <span class="input-group-text">With textarea</span>
+  </div>
+  <textarea class="form-control" aria-label="With textarea"></textarea>
+</div>
+<br>
+<h2>Checkbox</h2>
+<div class="checkbox-group">
+  <form>
+    <input type="checkbox" id ="v1" name="vehicle1" value="Bike" > I have a bike<br>
+    <input type="checkbox" id ="v2" name="vehicle2" value="Car" > I have a car<br>
+    <input type="checkbox" id ="v3" name="vehicle3" value="Boat" checked> I have a boat<br><br>
+  </form>
+</div>
+<br>
+<h2>Radio button</h2>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+  <label class="form-check-label" for="exampleRadios1">
+    Male
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+  <label class="form-check-label" for="exampleRadios2">
+    Female
+  </label>
+</div>
+
+<div>
+<h1>Borken links example</h1>
+<a class="py-2 d-none d-md-inline-block formLink" id="formLink" href="dragdrop1.php">Broken link</a>
+</div>
+<div>
+<h1>working links example</h1>
+<a class="py-2 d-none d-md-inline-block formLink" id="formLink" href="dragdrop.php">Broken link</a>
+</div>
+
+<div class="col-12 col-md">
+            <img class="mb-2" src="img.gif">
+
+          </div>
+
+          <div class="col-12 col-md">
+            <img class="mb-2" src="img.png" alt="" width="24" height="24">
+          </div>
+
+
+
+          <script src="main.js"></script>
+              <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                  const loadEl = document.querySelector('#load');
+                  // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+                  // // The Firebase SDK is initialized and available here!
+                  //
+                  // firebase.auth().onAuthStateChanged(user => { });
+                  // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+                  // firebase.firestore().doc('/foo/bar').get().then(() => { });
+                  // firebase.functions().httpsCallable('yourFunction')().then(() => { });
+                  // firebase.messaging().requestPermission().then(() => { });
+                  // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+                  // firebase.analytics(); // call to activate
+                  // firebase.analytics().logEvent('tutorial_completed');
+                  // firebase.performance(); // call to activate
+                  //
+                  // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+                  try {
+                    let app = firebase.app();
+                    let features = [
+                      'auth',
+                      'database',
+                      'firestore',
+                      'functions',
+                      'messaging',
+                      'storage',
+                      'analytics',
+                      'remoteConfig',
+                      'performance',
+                    ].filter(feature => typeof app[feature] === 'function');
+                    loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
+                  } catch (e) {
+                    console.error(e);
+                    loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
+                  }
+                });
+              </script>
+            </body>
+          </html>

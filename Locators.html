@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+    <title>codegator inc.</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="https://use.typekit.net/iwa1uky.css">
+    <link href="style.css" rel="stylesheet">
+    <style>
+        #box {
+        width: 350px;
+        height: 100px;
+        padding: 10px;
+        border: 1px solid #aaaaaa;
+        }
+</style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+    <div class="container d-flex flex-column flex-md-row justify-content-between">
+      <a class="navbar-brand" href="index.html">codegator practice site</a>
+      <a class="py-2 d-none d-md-inline-block alertLink" id="alertLink" href="alert.html">Alerts</a>
+      <a class="py-2 d-none d-md-inline-block iframeLink" id="iframe" href="iframe.html">Iframes</a>
+      <a class="py-2 d-none d-md-inline-block multipleLink" id="multipleWindow" href="MultipleWindows.html">Practice Multiple Windows</a>
+      <a class="py-2 d-none d-md-inline-block inputField" id="inputField" href="input_fields.html">Input Fields</a>
+      <a class="py-2 d-none d-md-inline-block tablesLink" id="tablesLink" href="tables.html">Tables</a>
+      <a class="py-2 d-none d-md-inline-block dropdownLink" id="dropdownLink" href="drop_down.html">Drop Down</a>
+      <a class="py-2 d-none d-md-inline-block formLink" id="formLink" href="form.html">Form</a>
+      <a class="py-2 d-none d-md-inline-block formLink" id="formLink" href="dragdrop.html">Drag & Drop</a>
+      <a class="py-2 d-none d-md-inline-block formLink" id="locatorsLink" href="Locators.html">Locators</a>
+      <a class="py-2 d-none d-md-inline-block">No Value</a>
+    </div>
+  </nav>
+  <br>
+  <div class="container">
+
+
+<h5><u>Using CSS Selector </u></h5>
+<b><i>tag#id</i></b>
+<h6>if you have <code>id</code> attribute present you can combine with the tag and id like e.g: tag#id and it will find that element.</h6>
+<code>driver.findElement(By.cssSelector(“p#line1”));</code>
+<hr>
+<b><i>tag.class</i></b>
+<h6>if you have <code>class</code> attribute present you can combine with the tag and class like e.g: tag.class and it will find that element.</h6>
+<code>driver.findElement(By.cssSelector(“p.example”));</code><br>
+<code>driver.findElement(By.cssSelector(“p.example.line2”));</code><br>
+<code>driver.findElement(By.cssSelector(“p.line2));</code>
+<hr>
+<b><i>tag[attribute=’attribute value’]</i></b>
+<h6>if you dont have any <code>id</code> or <code>class</code> present in the webelement, you can create custom cssSelector</h6>
+<code>driver.findElement(By.cssSelector(“input[placeholder='First name']”));</code>
+<hr>
+<b><i>button[id^='simple']</i></b>
+<h6>using below locator you will be able to select a button whose <code>id</code> attribute value starts from <code>simple</code></h6>
+<code>driver.findElement(By.cssSelector(“button[id^='simple']”));</code>
+
+<hr>
+<b><i>button[id$='Btn']</b></i>
+<h6>using below locator you will be able to select a button whose <code>id</code> attribute value ends at <code>Btn</code></h6>
+<code>driver.findElement(By.cssSelector(“button[id$='Btn']”));</code>
+
+<hr>
+<b><i>button[id*='ple']</b></i>
+<h6>using below locator you will be able to select a button whose <code>id</code> attribute value contains a <code>ple</code> string.</h6>
+<code>driver.findElement(By.cssSelector(“button[id*='ple']”));</code>
+<hr>
+<h5><u>Using XPATH </u></h5>
+<b><ul>Native or Absolute XPATH (Not Recommended)</ul></b>
+<code>/html/body/div/form/div[1]/div[1]/input</code>
+<b><ul>Relative XPATH (Recommended)</ul></b>
+<code>//tag[@attribute=’attribute value’]</code>
+<code>//input[contains(@placeholder,'User')]</code>
+<code>//input[starts-with(@placeholder,'Recipient')]</code>
+<hr>
+<h6>Advanced XPATH</h6>
+<li>parentXpath//childTagName</li>
+<br>
+<br>
+<br>
+
+
+<script src="main.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const loadEl = document.querySelector('#load');
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+        // // The Firebase SDK is initialized and available here!
+        //
+        // firebase.auth().onAuthStateChanged(user => { });
+        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+        // firebase.firestore().doc('/foo/bar').get().then(() => { });
+        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
+        // firebase.messaging().requestPermission().then(() => { });
+        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+        // firebase.analytics(); // call to activate
+        // firebase.analytics().logEvent('tutorial_completed');
+        // firebase.performance(); // call to activate
+        //
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+        try {
+          let app = firebase.app();
+          let features = [
+            'auth',
+            'database',
+            'firestore',
+            'functions',
+            'messaging',
+            'storage',
+            'analytics',
+            'remoteConfig',
+            'performance',
+          ].filter(feature => typeof app[feature] === 'function');
+          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
+        } catch (e) {
+          console.error(e);
+          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
+        }
+      });
+    </script>
+  </body>
+</html>

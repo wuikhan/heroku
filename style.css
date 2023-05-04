@@ -142,3 +142,11 @@ h1, h2, h3, h4, h5, h6, p, a, label, select, button, input, option, form, table,
 .blog-footer p:last-child {
     margin-bottom: 0;
 }
+
+
+#box {
+width: 350px;
+height: 100px;
+padding: 10px;
+border: 1px solid #aaaaaa;
+}
